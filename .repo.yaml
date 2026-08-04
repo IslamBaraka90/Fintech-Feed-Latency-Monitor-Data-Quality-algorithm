@@ -1,0 +1,53 @@
+repo_slug: "Fintech-Feed-Latency-Monitor-Data-Quality-algorithm"
+github: "IslamBaraka90/Fintech-Feed-Latency-Monitor-Data-Quality-algorithm"
+visibility: "public"
+
+derives_from:
+  topic_id: "D01-F04-A02"
+  title: "Feed Latency Monitor"
+  domain_id: "D01"
+  domain: "Market Data Engineering"
+  family_id: "D01-F04"
+  family: "Data Quality"
+  source_path: "algorithms/domains/D01-market-data-engineering/D01-F04-data-quality/D01-F04-A02-feed-latency-monitor"
+
+article_url: "https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/"
+languages: ["python", "typescript"]
+npm_subpath: "fintech-algorithms/market-data-engineering/data-quality/feed-latency-monitor"
+
+# Split model: the reader keeps the teaching snippet; this repo owns the monitor plus
+# the SLO surface (measurability_check, slo_report, clock_error_impact,
+# latency_breakdown).
+#
+# The surface was chosen because the tutorial produces per-event statuses and a
+# percentile summary, and leaves every question about whether those numbers can carry
+# an SLO:
+#   - measurability_check -> THE precondition nobody checks first. You cannot measure a
+#                            1ms threshold with a +/-2ms bound; every reading near it
+#                            lands in the uncertainty band. Reports the minimum cleanly
+#                            measurable threshold, which is a costed engineering ask.
+#   - slo_report          -> computes compliance TWICE (unresolved as pass, then as
+#                            fail). If the verdicts differ the SLO is UNDECIDED. Also
+#                            reports naive_share — the figure you get by dropping the
+#                            unresolved events, which is always at least as good as the
+#                            truth — so the gap is visible rather than inferred.
+#   - clock_error_impact  -> separates "the feed is slow" from "I cannot tell how slow",
+#                            which look identical on a dashboard and have completely
+#                            different fixes (network vs PTP).
+#   - latency_breakdown   -> transport vs processing, noting that processing latency is
+#                            measured on ONE clock and so carries no cross-domain
+#                            uncertainty at all.
+#
+# NO STREAMING ENGINE — this is a batch diagnosis over a window, like the other D01-F04
+# classifier. The natural incremental surface here would be a rolling percentile, which
+# is a different algorithm.
+#
+# The acceptance fixture is the monorepo's shared-fixture.json: 180 events each carrying
+# an expected_status, plus the exact counts and the p50/p95/p99/max summary, all
+# asserted verbatim in both languages to 1e-9.
+#
+# PORT NOTE: timestamps here carry MICROSECOND precision (e.g. .000900Z), so both ports
+# key on integer microseconds and validate the calendar date explicitly rather than
+# leaning on fromisoformat / Date.parse. The percentile is linear-interpolated and
+# written identically in both languages so the summaries agree bit for bit.
+model: "split"

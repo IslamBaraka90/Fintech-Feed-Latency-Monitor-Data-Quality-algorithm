@@ -1,0 +1,1462 @@
+{
+  "license": "CC0-1.0 synthetic",
+  "thresholds_ms": {
+    "warning": 5.0,
+    "critical": 15.0
+  },
+  "clock_profile": {
+    "source_clock_domain": "SYNTHETIC-VENUE-UTC",
+    "ingress_clock_domain": "CONSUMER-PHC-UTC",
+    "ready_clock_domain": "CONSUMER-PHC-UTC",
+    "source_timestamp_owner": "synthetic venue encoder",
+    "ingress_timestamp_owner": "consumer NIC hardware capture",
+    "ready_timestamp_owner": "consumer feed-handler process",
+    "cross_domain_sync_status": "synchronized",
+    "max_abs_offset_ms": 0.05,
+    "measured_at": "2026-07-13T13:29:59Z",
+    "evidence": "synthetic declared bound; not a production clock attestation"
+  },
+  "description": "CC0 synthetic stream of 180 events with bursts, one negative observed latency, and one sequence gap.",
+  "events": [
+    {
+      "event_id": "E0001",
+      "sequence": 10000,
+      "event_time": "2026-07-13T13:30:00Z",
+      "receive_time": "2026-07-13T13:30:00.000900Z",
+      "process_time": "2026-07-13T13:30:00.001150Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0002",
+      "sequence": 10001,
+      "event_time": "2026-07-13T13:30:00.025000Z",
+      "receive_time": "2026-07-13T13:30:00.026086Z",
+      "process_time": "2026-07-13T13:30:00.026379Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0003",
+      "sequence": 10002,
+      "event_time": "2026-07-13T13:30:00.050000Z",
+      "receive_time": "2026-07-13T13:30:00.051272Z",
+      "process_time": "2026-07-13T13:30:00.051608Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0004",
+      "sequence": 10003,
+      "event_time": "2026-07-13T13:30:00.075000Z",
+      "receive_time": "2026-07-13T13:30:00.076456Z",
+      "process_time": "2026-07-13T13:30:00.076835Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0005",
+      "sequence": 10004,
+      "event_time": "2026-07-13T13:30:00.100000Z",
+      "receive_time": "2026-07-13T13:30:00.101637Z",
+      "process_time": "2026-07-13T13:30:00.102059Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0006",
+      "sequence": 10005,
+      "event_time": "2026-07-13T13:30:00.125000Z",
+      "receive_time": "2026-07-13T13:30:00.126814Z",
+      "process_time": "2026-07-13T13:30:00.127279Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0007",
+      "sequence": 10006,
+      "event_time": "2026-07-13T13:30:00.150000Z",
+      "receive_time": "2026-07-13T13:30:00.151986Z",
+      "process_time": "2026-07-13T13:30:00.152494Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0008",
+      "sequence": 10007,
+      "event_time": "2026-07-13T13:30:00.175000Z",
+      "receive_time": "2026-07-13T13:30:00.177153Z",
+      "process_time": "2026-07-13T13:30:00.177704Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0009",
+      "sequence": 10008,
+      "event_time": "2026-07-13T13:30:00.200000Z",
+      "receive_time": "2026-07-13T13:30:00.202314Z",
+      "process_time": "2026-07-13T13:30:00.202908Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0010",
+      "sequence": 10009,
+      "event_time": "2026-07-13T13:30:00.225000Z",
+      "receive_time": "2026-07-13T13:30:00.227468Z",
+      "process_time": "2026-07-13T13:30:00.228105Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0011",
+      "sequence": 10010,
+      "event_time": "2026-07-13T13:30:00.250000Z",
+      "receive_time": "2026-07-13T13:30:00.252616Z",
+      "process_time": "2026-07-13T13:30:00.253296Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0012",
+      "sequence": 10011,
+      "event_time": "2026-07-13T13:30:00.275000Z",
+      "receive_time": "2026-07-13T13:30:00.277756Z",
+      "process_time": "2026-07-13T13:30:00.278479Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0013",
+      "sequence": 10012,
+      "event_time": "2026-07-13T13:30:00.300000Z",
+      "receive_time": "2026-07-13T13:30:00.302890Z",
+      "process_time": "2026-07-13T13:30:00.303656Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0014",
+      "sequence": 10013,
+      "event_time": "2026-07-13T13:30:00.325000Z",
+      "receive_time": "2026-07-13T13:30:00.328016Z",
+      "process_time": "2026-07-13T13:30:00.328825Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0015",
+      "sequence": 10014,
+      "event_time": "2026-07-13T13:30:00.350000Z",
+      "receive_time": "2026-07-13T13:30:00.353136Z",
+      "process_time": "2026-07-13T13:30:00.353988Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0016",
+      "sequence": 10015,
+      "event_time": "2026-07-13T13:30:00.375000Z",
+      "receive_time": "2026-07-13T13:30:00.378249Z",
+      "process_time": "2026-07-13T13:30:00.379144Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0017",
+      "sequence": 10016,
+      "event_time": "2026-07-13T13:30:00.400000Z",
+      "receive_time": "2026-07-13T13:30:00.403356Z",
+      "process_time": "2026-07-13T13:30:00.404294Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0018",
+      "sequence": 10017,
+      "event_time": "2026-07-13T13:30:00.425000Z",
+      "receive_time": "2026-07-13T13:30:00.428457Z",
+      "process_time": "2026-07-13T13:30:00.429438Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0019",
+      "sequence": 10018,
+      "event_time": "2026-07-13T13:30:00.450000Z",
+      "receive_time": "2026-07-13T13:30:00.453554Z",
+      "process_time": "2026-07-13T13:30:00.454578Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0020",
+      "sequence": 10019,
+      "event_time": "2026-07-13T13:30:00.475000Z",
+      "receive_time": "2026-07-13T13:30:00.478648Z",
+      "process_time": "2026-07-13T13:30:00.479715Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0021",
+      "sequence": 10020,
+      "event_time": "2026-07-13T13:30:00.500000Z",
+      "receive_time": "2026-07-13T13:30:00.503738Z",
+      "process_time": "2026-07-13T13:30:00.504848Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0022",
+      "sequence": 10021,
+      "event_time": "2026-07-13T13:30:00.525000Z",
+      "receive_time": "2026-07-13T13:30:00.528826Z",
+      "process_time": "2026-07-13T13:30:00.529979Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0023",
+      "sequence": 10022,
+      "event_time": "2026-07-13T13:30:00.550000Z",
+      "receive_time": "2026-07-13T13:30:00.551014Z",
+      "process_time": "2026-07-13T13:30:00.552210Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0024",
+      "sequence": 10023,
+      "event_time": "2026-07-13T13:30:00.575000Z",
+      "receive_time": "2026-07-13T13:30:00.576101Z",
+      "process_time": "2026-07-13T13:30:00.576390Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0025",
+      "sequence": 10024,
+      "event_time": "2026-07-13T13:30:00.600000Z",
+      "receive_time": "2026-07-13T13:30:00.601189Z",
+      "process_time": "2026-07-13T13:30:00.601521Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0026",
+      "sequence": 10025,
+      "event_time": "2026-07-13T13:30:00.625000Z",
+      "receive_time": "2026-07-13T13:30:00.626280Z",
+      "process_time": "2026-07-13T13:30:00.626655Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0027",
+      "sequence": 10026,
+      "event_time": "2026-07-13T13:30:00.650000Z",
+      "receive_time": "2026-07-13T13:30:00.651373Z",
+      "process_time": "2026-07-13T13:30:00.651791Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0028",
+      "sequence": 10027,
+      "event_time": "2026-07-13T13:30:00.675000Z",
+      "receive_time": "2026-07-13T13:30:00.676470Z",
+      "process_time": "2026-07-13T13:30:00.676931Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0029",
+      "sequence": 10028,
+      "event_time": "2026-07-13T13:30:00.700000Z",
+      "receive_time": "2026-07-13T13:30:00.701572Z",
+      "process_time": "2026-07-13T13:30:00.702076Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0030",
+      "sequence": 10029,
+      "event_time": "2026-07-13T13:30:00.725000Z",
+      "receive_time": "2026-07-13T13:30:00.726679Z",
+      "process_time": "2026-07-13T13:30:00.727226Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0031",
+      "sequence": 10030,
+      "event_time": "2026-07-13T13:30:00.750000Z",
+      "receive_time": "2026-07-13T13:30:00.751792Z",
+      "process_time": "2026-07-13T13:30:00.752382Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0032",
+      "sequence": 10031,
+      "event_time": "2026-07-13T13:30:00.775000Z",
+      "receive_time": "2026-07-13T13:30:00.776912Z",
+      "process_time": "2026-07-13T13:30:00.777545Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0033",
+      "sequence": 10032,
+      "event_time": "2026-07-13T13:30:00.800000Z",
+      "receive_time": "2026-07-13T13:30:00.802038Z",
+      "process_time": "2026-07-13T13:30:00.802714Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0034",
+      "sequence": 10033,
+      "event_time": "2026-07-13T13:30:00.825000Z",
+      "receive_time": "2026-07-13T13:30:00.827172Z",
+      "process_time": "2026-07-13T13:30:00.827891Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0035",
+      "sequence": 10034,
+      "event_time": "2026-07-13T13:30:00.850000Z",
+      "receive_time": "2026-07-13T13:30:00.852312Z",
+      "process_time": "2026-07-13T13:30:00.853074Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0036",
+      "sequence": 10035,
+      "event_time": "2026-07-13T13:30:00.875000Z",
+      "receive_time": "2026-07-13T13:30:00.877460Z",
+      "process_time": "2026-07-13T13:30:00.878265Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0037",
+      "sequence": 10036,
+      "event_time": "2026-07-13T13:30:00.900000Z",
+      "receive_time": "2026-07-13T13:30:00.902614Z",
+      "process_time": "2026-07-13T13:30:00.903462Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0038",
+      "sequence": 10037,
+      "event_time": "2026-07-13T13:30:00.925000Z",
+      "receive_time": "2026-07-13T13:30:00.936475Z",
+      "process_time": "2026-07-13T13:30:00.937366Z",
+      "expected_status": "warning"
+    },
+    {
+      "event_id": "E0039",
+      "sequence": 10038,
+      "event_time": "2026-07-13T13:30:00.950000Z",
+      "receive_time": "2026-07-13T13:30:00.970842Z",
+      "process_time": "2026-07-13T13:30:00.971776Z",
+      "expected_status": "critical"
+    },
+    {
+      "event_id": "E0040",
+      "sequence": 10039,
+      "event_time": "2026-07-13T13:30:00.975000Z",
+      "receive_time": "2026-07-13T13:30:00.978115Z",
+      "process_time": "2026-07-13T13:30:00.979092Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0041",
+      "sequence": 10040,
+      "event_time": "2026-07-13T13:30:01Z",
+      "receive_time": "2026-07-13T13:30:01.003292Z",
+      "process_time": "2026-07-13T13:30:01.004312Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0042",
+      "sequence": 10041,
+      "event_time": "2026-07-13T13:30:01.025000Z",
+      "receive_time": "2026-07-13T13:30:01.028473Z",
+      "process_time": "2026-07-13T13:30:01.029536Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0043",
+      "sequence": 10042,
+      "event_time": "2026-07-13T13:30:01.050000Z",
+      "receive_time": "2026-07-13T13:30:01.053657Z",
+      "process_time": "2026-07-13T13:30:01.054763Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0044",
+      "sequence": 10043,
+      "event_time": "2026-07-13T13:30:01.075000Z",
+      "receive_time": "2026-07-13T13:30:01.075943Z",
+      "process_time": "2026-07-13T13:30:01.077092Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0045",
+      "sequence": 10044,
+      "event_time": "2026-07-13T13:30:01.100000Z",
+      "receive_time": "2026-07-13T13:30:01.101128Z",
+      "process_time": "2026-07-13T13:30:01.102320Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0046",
+      "sequence": 10045,
+      "event_time": "2026-07-13T13:30:01.125000Z",
+      "receive_time": "2026-07-13T13:30:01.126315Z",
+      "process_time": "2026-07-13T13:30:01.126600Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0047",
+      "sequence": 10046,
+      "event_time": "2026-07-13T13:30:01.150000Z",
+      "receive_time": "2026-07-13T13:30:01.151501Z",
+      "process_time": "2026-07-13T13:30:01.151829Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0048",
+      "sequence": 10047,
+      "event_time": "2026-07-13T13:30:01.175000Z",
+      "receive_time": "2026-07-13T13:30:01.176685Z",
+      "process_time": "2026-07-13T13:30:01.177056Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0049",
+      "sequence": 10048,
+      "event_time": "2026-07-13T13:30:01.200000Z",
+      "receive_time": "2026-07-13T13:30:01.201866Z",
+      "process_time": "2026-07-13T13:30:01.202280Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0050",
+      "sequence": 10049,
+      "event_time": "2026-07-13T13:30:01.225000Z",
+      "receive_time": "2026-07-13T13:30:01.227042Z",
+      "process_time": "2026-07-13T13:30:01.227499Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0051",
+      "sequence": 10050,
+      "event_time": "2026-07-13T13:30:01.250000Z",
+      "receive_time": "2026-07-13T13:30:01.252215Z",
+      "process_time": "2026-07-13T13:30:01.252715Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0052",
+      "sequence": 10051,
+      "event_time": "2026-07-13T13:30:01.275000Z",
+      "receive_time": "2026-07-13T13:30:01.277381Z",
+      "process_time": "2026-07-13T13:30:01.277924Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0053",
+      "sequence": 10052,
+      "event_time": "2026-07-13T13:30:01.300000Z",
+      "receive_time": "2026-07-13T13:30:01.302542Z",
+      "process_time": "2026-07-13T13:30:01.303128Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0054",
+      "sequence": 10053,
+      "event_time": "2026-07-13T13:30:01.325000Z",
+      "receive_time": "2026-07-13T13:30:01.327697Z",
+      "process_time": "2026-07-13T13:30:01.328326Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0055",
+      "sequence": 10054,
+      "event_time": "2026-07-13T13:30:01.350000Z",
+      "receive_time": "2026-07-13T13:30:01.352844Z",
+      "process_time": "2026-07-13T13:30:01.353516Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0056",
+      "sequence": 10055,
+      "event_time": "2026-07-13T13:30:01.375000Z",
+      "receive_time": "2026-07-13T13:30:01.377984Z",
+      "process_time": "2026-07-13T13:30:01.378699Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0057",
+      "sequence": 10056,
+      "event_time": "2026-07-13T13:30:01.400000Z",
+      "receive_time": "2026-07-13T13:30:01.403118Z",
+      "process_time": "2026-07-13T13:30:01.403876Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0058",
+      "sequence": 10057,
+      "event_time": "2026-07-13T13:30:01.425000Z",
+      "receive_time": "2026-07-13T13:30:01.428244Z",
+      "process_time": "2026-07-13T13:30:01.429045Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0059",
+      "sequence": 10058,
+      "event_time": "2026-07-13T13:30:01.450000Z",
+      "receive_time": "2026-07-13T13:30:01.453363Z",
+      "process_time": "2026-07-13T13:30:01.454207Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0060",
+      "sequence": 10059,
+      "event_time": "2026-07-13T13:30:01.475000Z",
+      "receive_time": "2026-07-13T13:30:01.478476Z",
+      "process_time": "2026-07-13T13:30:01.479363Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0061",
+      "sequence": 10060,
+      "event_time": "2026-07-13T13:30:01.500000Z",
+      "receive_time": "2026-07-13T13:30:01.503583Z",
+      "process_time": "2026-07-13T13:30:01.504513Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0062",
+      "sequence": 10061,
+      "event_time": "2026-07-13T13:30:01.525000Z",
+      "receive_time": "2026-07-13T13:30:01.528685Z",
+      "process_time": "2026-07-13T13:30:01.529658Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0063",
+      "sequence": 10062,
+      "event_time": "2026-07-13T13:30:01.550000Z",
+      "receive_time": "2026-07-13T13:30:01.553782Z",
+      "process_time": "2026-07-13T13:30:01.554798Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0064",
+      "sequence": 10063,
+      "event_time": "2026-07-13T13:30:01.575000Z",
+      "receive_time": "2026-07-13T13:30:01.578875Z",
+      "process_time": "2026-07-13T13:30:01.579934Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0065",
+      "sequence": 10064,
+      "event_time": "2026-07-13T13:30:01.600000Z",
+      "receive_time": "2026-07-13T13:30:01.601065Z",
+      "process_time": "2026-07-13T13:30:01.602167Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0066",
+      "sequence": 10065,
+      "event_time": "2026-07-13T13:30:01.625000Z",
+      "receive_time": "2026-07-13T13:30:01.626153Z",
+      "process_time": "2026-07-13T13:30:01.627298Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0067",
+      "sequence": 10066,
+      "event_time": "2026-07-13T13:30:01.650000Z",
+      "receive_time": "2026-07-13T13:30:01.651241Z",
+      "process_time": "2026-07-13T13:30:01.652429Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0068",
+      "sequence": 10067,
+      "event_time": "2026-07-13T13:30:01.675000Z",
+      "receive_time": "2026-07-13T13:30:01.676328Z",
+      "process_time": "2026-07-13T13:30:01.676609Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0069",
+      "sequence": 10068,
+      "event_time": "2026-07-13T13:30:01.700000Z",
+      "receive_time": "2026-07-13T13:30:01.701417Z",
+      "process_time": "2026-07-13T13:30:01.701741Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0070",
+      "sequence": 10069,
+      "event_time": "2026-07-13T13:30:01.725000Z",
+      "receive_time": "2026-07-13T13:30:01.726507Z",
+      "process_time": "2026-07-13T13:30:01.726874Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0071",
+      "sequence": 10070,
+      "event_time": "2026-07-13T13:30:01.750000Z",
+      "receive_time": "2026-07-13T13:30:01.751600Z",
+      "process_time": "2026-07-13T13:30:01.752010Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0072",
+      "sequence": 10071,
+      "event_time": "2026-07-13T13:30:01.775000Z",
+      "receive_time": "2026-07-13T13:30:01.776697Z",
+      "process_time": "2026-07-13T13:30:01.777150Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0073",
+      "sequence": 10072,
+      "event_time": "2026-07-13T13:30:01.800000Z",
+      "receive_time": "2026-07-13T13:30:01.801799Z",
+      "process_time": "2026-07-13T13:30:01.802295Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0074",
+      "sequence": 10073,
+      "event_time": "2026-07-13T13:30:01.825000Z",
+      "receive_time": "2026-07-13T13:30:01.826906Z",
+      "process_time": "2026-07-13T13:30:01.827445Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0075",
+      "sequence": 10074,
+      "event_time": "2026-07-13T13:30:01.850000Z",
+      "receive_time": "2026-07-13T13:30:01.852020Z",
+      "process_time": "2026-07-13T13:30:01.852602Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0076",
+      "sequence": 10075,
+      "event_time": "2026-07-13T13:30:01.875000Z",
+      "receive_time": "2026-07-13T13:30:01.877139Z",
+      "process_time": "2026-07-13T13:30:01.877764Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0077",
+      "sequence": 10077,
+      "event_time": "2026-07-13T13:30:01.900000Z",
+      "receive_time": "2026-07-13T13:30:01.902266Z",
+      "process_time": "2026-07-13T13:30:01.902934Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0078",
+      "sequence": 10078,
+      "event_time": "2026-07-13T13:30:01.925000Z",
+      "receive_time": "2026-07-13T13:30:01.927400Z",
+      "process_time": "2026-07-13T13:30:01.928111Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0079",
+      "sequence": 10079,
+      "event_time": "2026-07-13T13:30:01.950000Z",
+      "receive_time": "2026-07-13T13:30:01.952540Z",
+      "process_time": "2026-07-13T13:30:01.953294Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0080",
+      "sequence": 10080,
+      "event_time": "2026-07-13T13:30:01.975000Z",
+      "receive_time": "2026-07-13T13:30:01.977688Z",
+      "process_time": "2026-07-13T13:30:01.978485Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0081",
+      "sequence": 10081,
+      "event_time": "2026-07-13T13:30:02Z",
+      "receive_time": "2026-07-13T13:30:02.002843Z",
+      "process_time": "2026-07-13T13:30:02.003683Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0082",
+      "sequence": 10082,
+      "event_time": "2026-07-13T13:30:02.025000Z",
+      "receive_time": "2026-07-13T13:30:02.028004Z",
+      "process_time": "2026-07-13T13:30:02.028887Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0083",
+      "sequence": 10083,
+      "event_time": "2026-07-13T13:30:02.050000Z",
+      "receive_time": "2026-07-13T13:30:02.053171Z",
+      "process_time": "2026-07-13T13:30:02.054097Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0084",
+      "sequence": 10084,
+      "event_time": "2026-07-13T13:30:02.075000Z",
+      "receive_time": "2026-07-13T13:30:02.078344Z",
+      "process_time": "2026-07-13T13:30:02.079313Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0085",
+      "sequence": 10085,
+      "event_time": "2026-07-13T13:30:02.100000Z",
+      "receive_time": "2026-07-13T13:30:02.103521Z",
+      "process_time": "2026-07-13T13:30:02.104533Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0086",
+      "sequence": 10086,
+      "event_time": "2026-07-13T13:30:02.125000Z",
+      "receive_time": "2026-07-13T13:30:02.125802Z",
+      "process_time": "2026-07-13T13:30:02.126857Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0087",
+      "sequence": 10087,
+      "event_time": "2026-07-13T13:30:02.150000Z",
+      "receive_time": "2026-07-13T13:30:02.150986Z",
+      "process_time": "2026-07-13T13:30:02.152084Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0088",
+      "sequence": 10088,
+      "event_time": "2026-07-13T13:30:02.175000Z",
+      "receive_time": "2026-07-13T13:30:02.176171Z",
+      "process_time": "2026-07-13T13:30:02.177312Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0089",
+      "sequence": 10089,
+      "event_time": "2026-07-13T13:30:02.200000Z",
+      "receive_time": "2026-07-13T13:30:02.201357Z",
+      "process_time": "2026-07-13T13:30:02.202541Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0090",
+      "sequence": 10090,
+      "event_time": "2026-07-13T13:30:02.225000Z",
+      "receive_time": "2026-07-13T13:30:02.226544Z",
+      "process_time": "2026-07-13T13:30:02.226821Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0091",
+      "sequence": 10091,
+      "event_time": "2026-07-13T13:30:02.250000Z",
+      "receive_time": "2026-07-13T13:30:02.251730Z",
+      "process_time": "2026-07-13T13:30:02.252050Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0092",
+      "sequence": 10092,
+      "event_time": "2026-07-13T13:30:02.275000Z",
+      "receive_time": "2026-07-13T13:30:02.300414Z",
+      "process_time": "2026-07-13T13:30:02.300777Z",
+      "expected_status": "critical"
+    },
+    {
+      "event_id": "E0093",
+      "sequence": 10093,
+      "event_time": "2026-07-13T13:30:02.300000Z",
+      "receive_time": "2026-07-13T13:30:02.302094Z",
+      "process_time": "2026-07-13T13:30:02.302500Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0094",
+      "sequence": 10094,
+      "event_time": "2026-07-13T13:30:02.325000Z",
+      "receive_time": "2026-07-13T13:30:02.327271Z",
+      "process_time": "2026-07-13T13:30:02.327720Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0095",
+      "sequence": 10095,
+      "event_time": "2026-07-13T13:30:02.350000Z",
+      "receive_time": "2026-07-13T13:30:02.352443Z",
+      "process_time": "2026-07-13T13:30:02.352935Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0096",
+      "sequence": 10096,
+      "event_time": "2026-07-13T13:30:02.375000Z",
+      "receive_time": "2026-07-13T13:30:02.377610Z",
+      "process_time": "2026-07-13T13:30:02.378145Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0097",
+      "sequence": 10097,
+      "event_time": "2026-07-13T13:30:02.400000Z",
+      "receive_time": "2026-07-13T13:30:02.402771Z",
+      "process_time": "2026-07-13T13:30:02.403349Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0098",
+      "sequence": 10098,
+      "event_time": "2026-07-13T13:30:02.425000Z",
+      "receive_time": "2026-07-13T13:30:02.427925Z",
+      "process_time": "2026-07-13T13:30:02.428546Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0099",
+      "sequence": 10099,
+      "event_time": "2026-07-13T13:30:02.450000Z",
+      "receive_time": "2026-07-13T13:30:02.453072Z",
+      "process_time": "2026-07-13T13:30:02.453736Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0100",
+      "sequence": 10100,
+      "event_time": "2026-07-13T13:30:02.475000Z",
+      "receive_time": "2026-07-13T13:30:02.478212Z",
+      "process_time": "2026-07-13T13:30:02.478919Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0101",
+      "sequence": 10101,
+      "event_time": "2026-07-13T13:30:02.500000Z",
+      "receive_time": "2026-07-13T13:30:02.503346Z",
+      "process_time": "2026-07-13T13:30:02.504096Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0102",
+      "sequence": 10102,
+      "event_time": "2026-07-13T13:30:02.525000Z",
+      "receive_time": "2026-07-13T13:30:02.528472Z",
+      "process_time": "2026-07-13T13:30:02.529265Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0103",
+      "sequence": 10103,
+      "event_time": "2026-07-13T13:30:02.550000Z",
+      "receive_time": "2026-07-13T13:30:02.553591Z",
+      "process_time": "2026-07-13T13:30:02.554427Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0104",
+      "sequence": 10104,
+      "event_time": "2026-07-13T13:30:02.575000Z",
+      "receive_time": "2026-07-13T13:30:02.578704Z",
+      "process_time": "2026-07-13T13:30:02.579583Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0105",
+      "sequence": 10105,
+      "event_time": "2026-07-13T13:30:02.600000Z",
+      "receive_time": "2026-07-13T13:30:02.603811Z",
+      "process_time": "2026-07-13T13:30:02.604733Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0106",
+      "sequence": 10106,
+      "event_time": "2026-07-13T13:30:02.625000Z",
+      "receive_time": "2026-07-13T13:30:02.628912Z",
+      "process_time": "2026-07-13T13:30:02.629877Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0107",
+      "sequence": 10107,
+      "event_time": "2026-07-13T13:30:02.650000Z",
+      "receive_time": "2026-07-13T13:30:02.651109Z",
+      "process_time": "2026-07-13T13:30:02.652117Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0108",
+      "sequence": 10108,
+      "event_time": "2026-07-13T13:30:02.675000Z",
+      "receive_time": "2026-07-13T13:30:02.676202Z",
+      "process_time": "2026-07-13T13:30:02.677253Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0109",
+      "sequence": 10109,
+      "event_time": "2026-07-13T13:30:02.700000Z",
+      "receive_time": "2026-07-13T13:30:02.701292Z",
+      "process_time": "2026-07-13T13:30:02.702386Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0110",
+      "sequence": 10110,
+      "event_time": "2026-07-13T13:30:02.725000Z",
+      "receive_time": "2026-07-13T13:30:02.726380Z",
+      "process_time": "2026-07-13T13:30:02.727517Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0111",
+      "sequence": 10111,
+      "event_time": "2026-07-13T13:30:02.750000Z",
+      "receive_time": "2026-07-13T13:30:02.751468Z",
+      "process_time": "2026-07-13T13:30:02.752648Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0112",
+      "sequence": 10112,
+      "event_time": "2026-07-13T13:30:02.775000Z",
+      "receive_time": "2026-07-13T13:30:02.776555Z",
+      "process_time": "2026-07-13T13:30:02.776828Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0113",
+      "sequence": 10113,
+      "event_time": "2026-07-13T13:30:02.800000Z",
+      "receive_time": "2026-07-13T13:30:02.799300Z",
+      "process_time": "2026-07-13T13:30:02.799616Z",
+      "expected_status": "clock_error_negative_latency"
+    },
+    {
+      "event_id": "E0114",
+      "sequence": 10114,
+      "event_time": "2026-07-13T13:30:02.825000Z",
+      "receive_time": "2026-07-13T13:30:02.826734Z",
+      "process_time": "2026-07-13T13:30:02.827093Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0115",
+      "sequence": 10115,
+      "event_time": "2026-07-13T13:30:02.850000Z",
+      "receive_time": "2026-07-13T13:30:02.851827Z",
+      "process_time": "2026-07-13T13:30:02.852229Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0116",
+      "sequence": 10116,
+      "event_time": "2026-07-13T13:30:02.875000Z",
+      "receive_time": "2026-07-13T13:30:02.876925Z",
+      "process_time": "2026-07-13T13:30:02.877370Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0117",
+      "sequence": 10117,
+      "event_time": "2026-07-13T13:30:02.900000Z",
+      "receive_time": "2026-07-13T13:30:02.902026Z",
+      "process_time": "2026-07-13T13:30:02.902514Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0118",
+      "sequence": 10118,
+      "event_time": "2026-07-13T13:30:02.925000Z",
+      "receive_time": "2026-07-13T13:30:02.927134Z",
+      "process_time": "2026-07-13T13:30:02.927665Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0119",
+      "sequence": 10119,
+      "event_time": "2026-07-13T13:30:02.950000Z",
+      "receive_time": "2026-07-13T13:30:02.952247Z",
+      "process_time": "2026-07-13T13:30:02.952821Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0120",
+      "sequence": 10120,
+      "event_time": "2026-07-13T13:30:02.975000Z",
+      "receive_time": "2026-07-13T13:30:02.977367Z",
+      "process_time": "2026-07-13T13:30:02.977984Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0121",
+      "sequence": 10121,
+      "event_time": "2026-07-13T13:30:03Z",
+      "receive_time": "2026-07-13T13:30:03.002494Z",
+      "process_time": "2026-07-13T13:30:03.003154Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0122",
+      "sequence": 10122,
+      "event_time": "2026-07-13T13:30:03.025000Z",
+      "receive_time": "2026-07-13T13:30:03.027628Z",
+      "process_time": "2026-07-13T13:30:03.028331Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0123",
+      "sequence": 10123,
+      "event_time": "2026-07-13T13:30:03.050000Z",
+      "receive_time": "2026-07-13T13:30:03.052768Z",
+      "process_time": "2026-07-13T13:30:03.053514Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0124",
+      "sequence": 10124,
+      "event_time": "2026-07-13T13:30:03.075000Z",
+      "receive_time": "2026-07-13T13:30:03.077916Z",
+      "process_time": "2026-07-13T13:30:03.078705Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0125",
+      "sequence": 10125,
+      "event_time": "2026-07-13T13:30:03.100000Z",
+      "receive_time": "2026-07-13T13:30:03.103071Z",
+      "process_time": "2026-07-13T13:30:03.103903Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0126",
+      "sequence": 10126,
+      "event_time": "2026-07-13T13:30:03.125000Z",
+      "receive_time": "2026-07-13T13:30:03.128232Z",
+      "process_time": "2026-07-13T13:30:03.129107Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0127",
+      "sequence": 10127,
+      "event_time": "2026-07-13T13:30:03.150000Z",
+      "receive_time": "2026-07-13T13:30:03.153400Z",
+      "process_time": "2026-07-13T13:30:03.154318Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0128",
+      "sequence": 10128,
+      "event_time": "2026-07-13T13:30:03.175000Z",
+      "receive_time": "2026-07-13T13:30:03.178572Z",
+      "process_time": "2026-07-13T13:30:03.179533Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0129",
+      "sequence": 10129,
+      "event_time": "2026-07-13T13:30:03.200000Z",
+      "receive_time": "2026-07-13T13:30:03.200849Z",
+      "process_time": "2026-07-13T13:30:03.201853Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0130",
+      "sequence": 10130,
+      "event_time": "2026-07-13T13:30:03.225000Z",
+      "receive_time": "2026-07-13T13:30:03.226030Z",
+      "process_time": "2026-07-13T13:30:03.227077Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0131",
+      "sequence": 10131,
+      "event_time": "2026-07-13T13:30:03.250000Z",
+      "receive_time": "2026-07-13T13:30:03.251214Z",
+      "process_time": "2026-07-13T13:30:03.252304Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0132",
+      "sequence": 10132,
+      "event_time": "2026-07-13T13:30:03.275000Z",
+      "receive_time": "2026-07-13T13:30:03.276400Z",
+      "process_time": "2026-07-13T13:30:03.277533Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0133",
+      "sequence": 10133,
+      "event_time": "2026-07-13T13:30:03.300000Z",
+      "receive_time": "2026-07-13T13:30:03.301586Z",
+      "process_time": "2026-07-13T13:30:03.302762Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0134",
+      "sequence": 10134,
+      "event_time": "2026-07-13T13:30:03.325000Z",
+      "receive_time": "2026-07-13T13:30:03.326773Z",
+      "process_time": "2026-07-13T13:30:03.327042Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0135",
+      "sequence": 10135,
+      "event_time": "2026-07-13T13:30:03.350000Z",
+      "receive_time": "2026-07-13T13:30:03.351959Z",
+      "process_time": "2026-07-13T13:30:03.352271Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0136",
+      "sequence": 10136,
+      "event_time": "2026-07-13T13:30:03.375000Z",
+      "receive_time": "2026-07-13T13:30:03.377142Z",
+      "process_time": "2026-07-13T13:30:03.377497Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0137",
+      "sequence": 10137,
+      "event_time": "2026-07-13T13:30:03.400000Z",
+      "receive_time": "2026-07-13T13:30:03.402323Z",
+      "process_time": "2026-07-13T13:30:03.402721Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0138",
+      "sequence": 10138,
+      "event_time": "2026-07-13T13:30:03.425000Z",
+      "receive_time": "2026-07-13T13:30:03.427500Z",
+      "process_time": "2026-07-13T13:30:03.427941Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0139",
+      "sequence": 10139,
+      "event_time": "2026-07-13T13:30:03.450000Z",
+      "receive_time": "2026-07-13T13:30:03.452672Z",
+      "process_time": "2026-07-13T13:30:03.453156Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0140",
+      "sequence": 10140,
+      "event_time": "2026-07-13T13:30:03.475000Z",
+      "receive_time": "2026-07-13T13:30:03.477838Z",
+      "process_time": "2026-07-13T13:30:03.478365Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0141",
+      "sequence": 10141,
+      "event_time": "2026-07-13T13:30:03.500000Z",
+      "receive_time": "2026-07-13T13:30:03.502999Z",
+      "process_time": "2026-07-13T13:30:03.503569Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0142",
+      "sequence": 10142,
+      "event_time": "2026-07-13T13:30:03.525000Z",
+      "receive_time": "2026-07-13T13:30:03.528153Z",
+      "process_time": "2026-07-13T13:30:03.528766Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0143",
+      "sequence": 10143,
+      "event_time": "2026-07-13T13:30:03.550000Z",
+      "receive_time": "2026-07-13T13:30:03.553300Z",
+      "process_time": "2026-07-13T13:30:03.553956Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0144",
+      "sequence": 10144,
+      "event_time": "2026-07-13T13:30:03.575000Z",
+      "receive_time": "2026-07-13T13:30:03.578440Z",
+      "process_time": "2026-07-13T13:30:03.579139Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0145",
+      "sequence": 10145,
+      "event_time": "2026-07-13T13:30:03.600000Z",
+      "receive_time": "2026-07-13T13:30:03.612774Z",
+      "process_time": "2026-07-13T13:30:03.613516Z",
+      "expected_status": "warning"
+    },
+    {
+      "event_id": "E0146",
+      "sequence": 10146,
+      "event_time": "2026-07-13T13:30:03.625000Z",
+      "receive_time": "2026-07-13T13:30:03.628699Z",
+      "process_time": "2026-07-13T13:30:03.629484Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0147",
+      "sequence": 10147,
+      "event_time": "2026-07-13T13:30:03.650000Z",
+      "receive_time": "2026-07-13T13:30:03.653819Z",
+      "process_time": "2026-07-13T13:30:03.654647Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0148",
+      "sequence": 10148,
+      "event_time": "2026-07-13T13:30:03.675000Z",
+      "receive_time": "2026-07-13T13:30:03.678931Z",
+      "process_time": "2026-07-13T13:30:03.679802Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0149",
+      "sequence": 10149,
+      "event_time": "2026-07-13T13:30:03.700000Z",
+      "receive_time": "2026-07-13T13:30:03.704038Z",
+      "process_time": "2026-07-13T13:30:03.704952Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0150",
+      "sequence": 10150,
+      "event_time": "2026-07-13T13:30:03.725000Z",
+      "receive_time": "2026-07-13T13:30:03.726239Z",
+      "process_time": "2026-07-13T13:30:03.727196Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0151",
+      "sequence": 10151,
+      "event_time": "2026-07-13T13:30:03.750000Z",
+      "receive_time": "2026-07-13T13:30:03.751336Z",
+      "process_time": "2026-07-13T13:30:03.752336Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0152",
+      "sequence": 10152,
+      "event_time": "2026-07-13T13:30:03.775000Z",
+      "receive_time": "2026-07-13T13:30:03.776429Z",
+      "process_time": "2026-07-13T13:30:03.777472Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0153",
+      "sequence": 10153,
+      "event_time": "2026-07-13T13:30:03.800000Z",
+      "receive_time": "2026-07-13T13:30:03.801519Z",
+      "process_time": "2026-07-13T13:30:03.802605Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0154",
+      "sequence": 10154,
+      "event_time": "2026-07-13T13:30:03.825000Z",
+      "receive_time": "2026-07-13T13:30:03.826607Z",
+      "process_time": "2026-07-13T13:30:03.827736Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0155",
+      "sequence": 10155,
+      "event_time": "2026-07-13T13:30:03.850000Z",
+      "receive_time": "2026-07-13T13:30:03.851695Z",
+      "process_time": "2026-07-13T13:30:03.852867Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0156",
+      "sequence": 10156,
+      "event_time": "2026-07-13T13:30:03.875000Z",
+      "receive_time": "2026-07-13T13:30:03.876783Z",
+      "process_time": "2026-07-13T13:30:03.877048Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0157",
+      "sequence": 10157,
+      "event_time": "2026-07-13T13:30:03.900000Z",
+      "receive_time": "2026-07-13T13:30:03.901871Z",
+      "process_time": "2026-07-13T13:30:03.902179Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0158",
+      "sequence": 10158,
+      "event_time": "2026-07-13T13:30:03.925000Z",
+      "receive_time": "2026-07-13T13:30:03.926961Z",
+      "process_time": "2026-07-13T13:30:03.927312Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0159",
+      "sequence": 10159,
+      "event_time": "2026-07-13T13:30:03.950000Z",
+      "receive_time": "2026-07-13T13:30:03.952055Z",
+      "process_time": "2026-07-13T13:30:03.952449Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0160",
+      "sequence": 10160,
+      "event_time": "2026-07-13T13:30:03.975000Z",
+      "receive_time": "2026-07-13T13:30:03.977152Z",
+      "process_time": "2026-07-13T13:30:03.977589Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0161",
+      "sequence": 10161,
+      "event_time": "2026-07-13T13:30:04Z",
+      "receive_time": "2026-07-13T13:30:04.002254Z",
+      "process_time": "2026-07-13T13:30:04.002734Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0162",
+      "sequence": 10162,
+      "event_time": "2026-07-13T13:30:04.025000Z",
+      "receive_time": "2026-07-13T13:30:04.027361Z",
+      "process_time": "2026-07-13T13:30:04.027884Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0163",
+      "sequence": 10163,
+      "event_time": "2026-07-13T13:30:04.050000Z",
+      "receive_time": "2026-07-13T13:30:04.052475Z",
+      "process_time": "2026-07-13T13:30:04.053041Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0164",
+      "sequence": 10164,
+      "event_time": "2026-07-13T13:30:04.075000Z",
+      "receive_time": "2026-07-13T13:30:04.077595Z",
+      "process_time": "2026-07-13T13:30:04.078204Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0165",
+      "sequence": 10165,
+      "event_time": "2026-07-13T13:30:04.100000Z",
+      "receive_time": "2026-07-13T13:30:04.102722Z",
+      "process_time": "2026-07-13T13:30:04.103374Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0166",
+      "sequence": 10166,
+      "event_time": "2026-07-13T13:30:04.125000Z",
+      "receive_time": "2026-07-13T13:30:04.127856Z",
+      "process_time": "2026-07-13T13:30:04.128551Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0167",
+      "sequence": 10167,
+      "event_time": "2026-07-13T13:30:04.150000Z",
+      "receive_time": "2026-07-13T13:30:04.152997Z",
+      "process_time": "2026-07-13T13:30:04.153735Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0168",
+      "sequence": 10168,
+      "event_time": "2026-07-13T13:30:04.175000Z",
+      "receive_time": "2026-07-13T13:30:04.178145Z",
+      "process_time": "2026-07-13T13:30:04.178926Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0169",
+      "sequence": 10169,
+      "event_time": "2026-07-13T13:30:04.200000Z",
+      "receive_time": "2026-07-13T13:30:04.203300Z",
+      "process_time": "2026-07-13T13:30:04.204124Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0170",
+      "sequence": 10170,
+      "event_time": "2026-07-13T13:30:04.225000Z",
+      "receive_time": "2026-07-13T13:30:04.228461Z",
+      "process_time": "2026-07-13T13:30:04.229328Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0171",
+      "sequence": 10171,
+      "event_time": "2026-07-13T13:30:04.250000Z",
+      "receive_time": "2026-07-13T13:30:04.250728Z",
+      "process_time": "2026-07-13T13:30:04.251638Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0172",
+      "sequence": 10172,
+      "event_time": "2026-07-13T13:30:04.275000Z",
+      "receive_time": "2026-07-13T13:30:04.306901Z",
+      "process_time": "2026-07-13T13:30:04.307854Z",
+      "expected_status": "critical"
+    },
+    {
+      "event_id": "E0173",
+      "sequence": 10173,
+      "event_time": "2026-07-13T13:30:04.300000Z",
+      "receive_time": "2026-07-13T13:30:04.301078Z",
+      "process_time": "2026-07-13T13:30:04.302074Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0174",
+      "sequence": 10174,
+      "event_time": "2026-07-13T13:30:04.325000Z",
+      "receive_time": "2026-07-13T13:30:04.326259Z",
+      "process_time": "2026-07-13T13:30:04.327298Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0175",
+      "sequence": 10175,
+      "event_time": "2026-07-13T13:30:04.350000Z",
+      "receive_time": "2026-07-13T13:30:04.351443Z",
+      "process_time": "2026-07-13T13:30:04.352525Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0176",
+      "sequence": 10176,
+      "event_time": "2026-07-13T13:30:04.375000Z",
+      "receive_time": "2026-07-13T13:30:04.376629Z",
+      "process_time": "2026-07-13T13:30:04.377754Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0177",
+      "sequence": 10177,
+      "event_time": "2026-07-13T13:30:04.400000Z",
+      "receive_time": "2026-07-13T13:30:04.401815Z",
+      "process_time": "2026-07-13T13:30:04.402983Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0178",
+      "sequence": 10178,
+      "event_time": "2026-07-13T13:30:04.425000Z",
+      "receive_time": "2026-07-13T13:30:04.427002Z",
+      "process_time": "2026-07-13T13:30:04.427263Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0179",
+      "sequence": 10179,
+      "event_time": "2026-07-13T13:30:04.450000Z",
+      "receive_time": "2026-07-13T13:30:04.452188Z",
+      "process_time": "2026-07-13T13:30:04.452492Z",
+      "expected_status": "ok"
+    },
+    {
+      "event_id": "E0180",
+      "sequence": 10180,
+      "event_time": "2026-07-13T13:30:04.475000Z",
+      "receive_time": "2026-07-13T13:30:04.477371Z",
+      "process_time": "2026-07-13T13:30:04.477718Z",
+      "expected_status": "ok"
+    }
+  ]
+}

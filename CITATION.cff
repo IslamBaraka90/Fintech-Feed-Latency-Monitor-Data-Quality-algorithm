@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Fintech Feed Latency Monitor — Data Quality Algorithm"
+message: "If you use this software, please cite it and the companion article."
+type: software
+authors:
+  - name: "The Fintech Builder"
+repository-code: "https://github.com/IslamBaraka90/Fintech-Feed-Latency-Monitor-Data-Quality-algorithm"
+url: "https://thefintechbuilder.com/market-data-engineering/data-quality/feed-latency-monitor/"
+keywords: [fintech, latency, clock-sync, ptp, observability, data-quality, market-data]
+license: MIT
+version: "0.1.0"
